@@ -56,5 +56,11 @@ buck-out/
 *.jsbundle
 
 coverage/
+android/
+ios/
+./coverage
+./android
+./ios
+
 
 
