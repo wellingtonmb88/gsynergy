@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the ProductListScreen renders failed products  1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#5C5C5C",
+        "flex": 1,
+        "fontFamily": "Helvetica Neue",
+        "fontSize": 18,
+        "textAlign": "center",
+      }
+    }
+  >
+    Your product list is empty!
+  </Text>
+</RCTSafeAreaView>
+`;
+
+exports[`render the ProductListScreen renders loading products  1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#5C5C5C",
+        "flex": 1,
+        "fontFamily": "Helvetica Neue",
+        "fontSize": 18,
+        "textAlign": "center",
+      }
+    }
+  >
+    Your product list is empty!
+  </Text>
+</RCTSafeAreaView>
+`;
+
+exports[`render the ProductListScreen renders with products 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "id": "0",
+          "image_url": "https://unsplash.it/1000/1000",
+          "text": undefined,
+        },
+        Object {
+          "id": "1",
+          "image_url": "https://unsplash.it/1000/1000",
+          "text": undefined,
+        },
+        Object {
+          "empty": true,
+          "id": "empty-0",
+          "name": "empty-0",
+        },
+        Object {
+          "empty": true,
+          "id": "empty-1",
+          "name": "empty-1",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={2}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "margin": 5,
+                "marginBottom": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 200,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 15,
+                      "width": 200,
+                    },
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 14,
+                      "height": 180,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ebebeb",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "transform": Array [
+                          Object {
+                            "translateX": -200,
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <BVLinearGradient
+                      colors={
+                        Array [
+                          4293651435,
+                          4291151301,
+                          4293651435,
+                        ]
+                      }
+                      endPoint={
+                        Object {
+                          "x": 2,
+                          "y": 0.5,
+                        }
+                      }
+                      locations={
+                        Array [
+                          0.3,
+                          0.5,
+                          0.7,
+                        ]
+                      }
+                      startPoint={
+                        Object {
+                          "x": -1,
+                          "y": 0.5,
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "height": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://unsplash.it/1000/1000",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 1,
+                    "width": 1,
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 15,
+                      "width": 200,
+                    },
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "marginLeft": 9,
+                      "marginTop": 12,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ebebeb",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "transform": Array [
+                          Object {
+                            "translateX": -200,
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <BVLinearGradient
+                      colors={
+                        Array [
+                          4293651435,
+                          4291151301,
+                          4293651435,
+                        ]
+                      }
+                      endPoint={
+                        Object {
+                          "x": 2,
+                          "y": 0.5,
+                        }
+                      }
+                      locations={
+                        Array [
+                          0.3,
+                          0.5,
+                          0.7,
+                        ]
+                      }
+                      startPoint={
+                        Object {
+                          "x": -1,
+                          "y": 0.5,
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "height": 0,
+                        "width": 0,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#5C5C5C",
+                          "fontFamily": "Helvetica Neue",
+                          "fontSize": 18,
+                          "marginLeft": 9,
+                          "marginTop": 12,
+                          "textAlign": "left",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "margin": 5,
+                "marginBottom": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 200,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 15,
+                      "width": 200,
+                    },
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 14,
+                      "height": 180,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ebebeb",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "transform": Array [
+                          Object {
+                            "translateX": -200,
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <BVLinearGradient
+                      colors={
+                        Array [
+                          4293651435,
+                          4291151301,
+                          4293651435,
+                        ]
+                      }
+                      endPoint={
+                        Object {
+                          "x": 2,
+                          "y": 0.5,
+                        }
+                      }
+                      locations={
+                        Array [
+                          0.3,
+                          0.5,
+                          0.7,
+                        ]
+                      }
+                      startPoint={
+                        Object {
+                          "x": -1,
+                          "y": 0.5,
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "height": 0,
+                        "width": 0,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://unsplash.it/1000/1000",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 1,
+                    "width": 1,
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "height": 15,
+                      "width": 200,
+                    },
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "marginLeft": 9,
+                      "marginTop": 12,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ebebeb",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                        "transform": Array [
+                          Object {
+                            "translateX": -200,
+                          },
+                        ],
+                      }
+                    }
+                  >
+                    <BVLinearGradient
+                      colors={
+                        Array [
+                          4293651435,
+                          4291151301,
+                          4293651435,
+                        ]
+                      }
+                      endPoint={
+                        Object {
+                          "x": 2,
+                          "y": 0.5,
+                        }
+                      }
+                      locations={
+                        Array [
+                          0.3,
+                          0.5,
+                          0.7,
+                        ]
+                      }
+                      startPoint={
+                        Object {
+                          "x": -1,
+                          "y": 0.5,
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "height": 0,
+                        "width": 0,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#5C5C5C",
+                          "fontFamily": "Helvetica Neue",
+                          "fontSize": 18,
+                          "marginLeft": 9,
+                          "marginTop": 12,
+                          "textAlign": "left",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "margin": 5,
+                  "marginBottom": 20,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "margin": 5,
+                  "marginBottom": 20,
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`render the ProductListScreen renders without products 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#5C5C5C",
+        "flex": 1,
+        "fontFamily": "Helvetica Neue",
+        "fontSize": 18,
+        "textAlign": "center",
+      }
+    }
+  >
+    Your product list is empty!
+  </Text>
+</RCTSafeAreaView>
+`;
