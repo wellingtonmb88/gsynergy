@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import If from "../../components/If";
+import If from "components/If";
 
 describe("render the ProductListScreen", () => {
   it("renders without crashing", () => {
