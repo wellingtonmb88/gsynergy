@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1533664905229" clover="3.2.0">
+  <project timestamp="1533664905229" name="All files">
+    <metrics statements="25" coveredstatements="22" conditionals="9" coveredconditionals="7" methods="8" coveredmethods="6" elements="42" coveredelements="35" complexity="0" loc="25" ncloc="25" packages="5" files="6" classes="6">
+      <package name="src">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="App.js" path="/Users/Wellington/Documents/challenges/angel_list/gsynergy/src/App.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components">
+        <metrics statements="7" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <file name="If.js" path="/Users/Wellington/Documents/challenges/angel_list/gsynergy/src/components/If.js">
+          <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="ItemCard.js" path="/Users/Wellington/Documents/challenges/angel_list/gsynergy/src/components/ItemCard.js">
+          <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.store.actions">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="ProductActions.js" path="/Users/Wellington/Documents/challenges/angel_list/gsynergy/src/store/actions/ProductActions.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.store.reducers">
+        <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <file name="ProductReducers.js" path="/Users/Wellington/Documents/challenges/angel_list/gsynergy/src/store/reducers/ProductReducers.js">
+          <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="12" count="4" type="cond" truecount="4" falsecount="0"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.store.sagas">
+        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="ProductSaga.js" path="/Users/Wellington/Documents/challenges/angel_list/gsynergy/src/store/sagas/ProductSaga.js">
+          <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
