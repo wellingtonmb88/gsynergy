@@ -4,19 +4,40 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "run-ios": "react-native run-ios --simulator=\"iPhone X\"",
+    "run-android": "react-native run-android",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "react": "16.4.1",
-    "react-native": "0.56.0"
+    "react-native": "0.56.0",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-shimmer-placeholder": "^1.0.29"
   },
   "devDependencies": {
-    "babel-jest": "23.4.2",
-    "babel-preset-react-native": "^5",
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-react-16-adapter-setup": "^0.1.0",
     "jest": "23.4.2",
+    "jest-enzyme": "^6.0.2",
+    "react-dom": "^16.4.2",
     "react-test-renderer": "16.4.1"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "setupFiles": [
+      "enzyme-react-16-adapter-setup"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!src/store/index.js",
+      "!src/services/**",
+      "!index.js"
+    ]
   }
 }

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the ProductListScreen renders without crashing 1`] = `""`;
+
+exports[`render the ProductListScreen testing the rest of the conditional 1`] = `
+<span>
+  Test
+</span>
+`;
