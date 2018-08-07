@@ -3,7 +3,7 @@ import {
   FAILURE_PRODUCT_LIST
 } from "../reducers/ProductReducers";
 import { REQUEST_PRODUCT_LIST } from "../actions/ProductActions";
-import apiGetProductList from "../../services/ProductApi";
+import apiGetProductList from "services/ProductApi";
 
 import { takeLatest, put, call } from "redux-saga/effects";
 

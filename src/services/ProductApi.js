@@ -1,14 +1,10 @@
-const mockProducts = [
-  {
-    id: "1",
-    name: "product-mock1",
-    image_url: "https://unsplash.it/1000/1000"
-  }
-];
+import * as ApolloService from "./apollo/ApolloService";
 
 const apiGetProductList = () => {
   return new Promise((resolve, reject) => {
-    resolve(mockProducts);
+    ApolloService.service()
+      .then(products => resolve(products))
+      .catch(error => reject(error));
   });
 };
 
